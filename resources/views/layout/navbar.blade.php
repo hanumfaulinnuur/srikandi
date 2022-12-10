@@ -30,23 +30,61 @@
 
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Daftar Produk
+                      Kelola Produk
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="{{route('produk.view')}}">View Produk</a></li>
                       <li><a class="dropdown-item" href="{{ route('produk.add') }}">Tambah Produk</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li>
 
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Pakaian
+                      Kelola Detail-Produk
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="{{route('produk.view')}}">View Detail-Produk</a></li>
+                      <li><a class="dropdown-item" href="{{ route('produk.add') }}">Tambah Detail-Produk</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Kelola Pesanan
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="{{route('produk.view')}}">View Pesanan</a></li>
+                      <li><a class="dropdown-item" href="{{ route('produk.add') }}">Tambah Pesanan</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Kelola Pesanan_Detail
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">view Pesanan_Detail</a></li>
+                      <li><a class="dropdown-item" href="#">Tambah Pesanan_Detail</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Kelola Pesanan_Detail
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">view Pesanan_Detail</a></li>
+                      <li><a class="dropdown-item" href="#">Tambah Pesanan_Detail</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Kelola Kurir
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="{{route('produk.view')}}">View Kurir</a></li>
+                      <li><a class="dropdown-item" href="{{ route('produk.add') }}">Tambah Kurir</a></li>
                     </ul>
                   </li>
 
