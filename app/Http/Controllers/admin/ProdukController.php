@@ -1,13 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\admin;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Produk;
 
 class ProdukController extends Controller
 {
-  public function ProdukView()
+    public function ProdukView()
     {
     $data['allDataProduk']=Produk::all();
     return view("admin.produk.view", $data);
@@ -45,6 +46,5 @@ class ProdukController extends Controller
 
 
 }
-
 
 

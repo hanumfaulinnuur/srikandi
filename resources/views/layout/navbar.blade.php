@@ -30,7 +30,7 @@
 
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Kelola Produk
+                      Produk
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="{{route('produk.view')}}">View Produk</a></li>
@@ -40,7 +40,7 @@
 
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Kelola Detail-Produk
+                      Detail_Produk
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="{{route('produk.view')}}">View Detail-Produk</a></li>
@@ -50,7 +50,7 @@
 
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Kelola Pesanan
+                      Pesanan
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="{{route('produk.view')}}">View Pesanan</a></li>
@@ -60,7 +60,7 @@
 
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Kelola Pesanan_Detail
+                      Pesanan_Detail
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">view Pesanan_Detail</a></li>
@@ -68,19 +68,11 @@
                     </ul>
                   </li>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Kelola Pesanan_Detail
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">view Pesanan_Detail</a></li>
-                      <li><a class="dropdown-item" href="#">Tambah Pesanan_Detail</a></li>
-                    </ul>
-                  </li>
+  
 
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Kelola Kurir
+                      Kurir
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="{{route('produk.view')}}">View Kurir</a></li>
@@ -88,9 +80,9 @@
                     </ul>
                   </li>
 
-                  <li class="nav-item">
+                  {{-- <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">Profile</a>
-                  </li>
+                  </li> --}}
 
                 </ul>
               </div>

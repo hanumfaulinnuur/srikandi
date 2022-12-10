@@ -4,7 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\DetailController;
-use App\Http\Controllers\ProdukController;
+use App\Http\Controllers\admin\ProdukController;
+
 
 
 /*
